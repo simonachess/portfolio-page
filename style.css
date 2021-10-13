@@ -534,8 +534,11 @@ p {
 }
 
 @media only screen and (max-width:768px) {
-    #projects .project-item{
+    #projects .project-item {
         display: inline;
+    }
+    #about .contact-item {
+        width: 70%;
     }
 }
 
