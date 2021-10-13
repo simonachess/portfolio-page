@@ -538,7 +538,8 @@ p {
         display: inline;
     }
     #about .contact-item {
-        width: 70%;
+        width: 80%;
+        margin: 10px auto;
     }
 }
 
