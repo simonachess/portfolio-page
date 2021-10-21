@@ -541,6 +541,14 @@ p {
         width: 80%;
         margin: 10px auto;
     }
+    #about .contact-items {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
