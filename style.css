@@ -255,8 +255,9 @@ p {
 #home .cta {
     animation: portfolio_button 2s ease forwards;
     animation-duration: 3s;
-    color: rgb(106, 74, 189);
+    
 }
+
 
 #projects .projects {
     flex-direction: column;
