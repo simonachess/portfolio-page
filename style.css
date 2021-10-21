@@ -93,7 +93,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    transition: .5s ease background-color;
+    transition: .1s ease background-color;
 }
 
 #header .nav-bar {
@@ -166,7 +166,6 @@ p {
     width: 60px;
     display: inline-block;
     border: 3px solid rgb(214, 204, 238);
-    ;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -231,18 +230,6 @@ p {
     position: relative;
 }
 
-#home::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: .7;
-    z-index: -1;
-}
-
 #home .home {
     max-width: 1200px;
     margin: 0 auto;
@@ -262,12 +249,12 @@ p {
     letter-spacing: 0.5rem;
     animation: text_reveal 2s ease forwards;
     animation-delay: 0.3s;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 #home .cta {
     animation: portfolio_button 2s ease forwards;
-    animation-delay: 0.5s;
+    animation-duration: 3s;
 }
 
 #projects .projects {
@@ -489,7 +476,6 @@ p {
 
 #footer p {
     color: rgb(214, 204, 238);
-    ;
     font-size: 1.3rem;
 }
 
@@ -549,6 +535,9 @@ p {
         align-items: center;
         margin-bottom: 10px;
     }
+    #home h1 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -560,7 +549,7 @@ p {
         font-size: 6rem;
     }
     #home h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         padding: 10px 30px;
     }
     #projects .project-item:nth-child(even) {
@@ -617,6 +606,13 @@ p {
         width: 100%;
         text-align: left;
         padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    #home h1 {
+        font-size: 3.5rem;
+        padding: 7px 14px;
     }
 }
 
