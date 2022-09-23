@@ -361,9 +361,53 @@ p {
     padding: 0 20px;
 }
 
-#about .photo-me img {
-    width: 240px;
-    margin: 10px;
+#about .photo-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#about .card {
+    height: 397px;
+    width: 300px;
+    position: relative;
+    border-radius: 15px;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .profile {
+    background: url("img/IMG_0007.jpg") center center no-repeat;
+    background-size: 300px;
+    transition: background 0.8s;
+}
+
+#about .profile:hover {
+    background: url("img/IMG_0007.jpg") 70% 10% no-repeat;
+    background-size: 500px;
+}
+
+/* #about .profile:hover h2 {
+    opacity: 0.6;
+} */
+
+#about .info-me {
+    display: flex;
+    flex-direction: column;
+}
+
+#about .info-me .section-card{
+    margin-bottom: 20px;
+}
+
+#about .info-me .section-card .section-title{
+    font-size: 24px;
 }
 
 #about .resume {
