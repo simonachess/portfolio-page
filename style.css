@@ -255,9 +255,12 @@ p {
 #home .cta {
     animation: portfolio_button 2s ease forwards;
     animation-duration: 3s;
-    
+
 }
 
+#projects h2 {
+    padding: 0 30px;
+}
 
 #projects .projects {
     flex-direction: column;
@@ -268,6 +271,7 @@ p {
 
 #projects .projects-header h1 {
     margin-bottom: 50px;
+
 }
 
 #projects .all-projects {
@@ -392,10 +396,6 @@ p {
     background: url("img/IMG_0007.jpg") 70% 10% no-repeat;
     background-size: 500px;
 }
-
-/* #about .profile:hover h2 {
-    opacity: 0.6;
-} */
 
 #about .info-me {
     display: flex;
@@ -568,6 +568,7 @@ p {
 @media only screen and (max-width:768px) {
     #projects .project-item {
         display: inline;
+        margin: 10px 30px;
     }
     #about .contact-item {
         width: 80%;
@@ -603,6 +604,9 @@ p {
     }
     #projects .project-item {
         flex-direction: row;
+    }
+    #projects h2 {
+        text-align: center;
     }
     #projects .project-item {
         height: 200px;
